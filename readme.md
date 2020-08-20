@@ -4,4 +4,4 @@ This website that features Gandhi isn't an actual tribute page to him. The parag
 
 ## Contributions
 
-Want to reach out to me? Check out my [LinkTree](https://link tr.ee/PraveshK) here!
+Want to reach out to me? Check out my [LinkTree](https://linktr.ee/PraveshK) here!
