@@ -11,9 +11,16 @@ html {
   scroll-behavior: smooth;
 }
 
-#main {
+body {
+  min-height: 100vh;
+  position: relative;
+  font-family: "Roboto Slab", "Times New Roman", Times, serif;
   background-color: rgb(238, 238, 238);
-  height: auto;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
 }
 
 h6 {
@@ -32,6 +39,11 @@ p {
 
 .offset {
   margin-top: 50px;
+}
+
+.offset-h6 {
+  margin-bottom: 1rem;
+  font-size: 24px;
 }
 
 .col-sm {
@@ -55,11 +67,14 @@ p {
 .h3-style #h3-anchor:hover {
   color: dodgerblue;
   box-shadow: 5px 5px dodgerblue;
+  border-color: dodgerblue;
+  border-width: 7px;
 }
 
 #main-2 {
   background-color: rgb(238, 238, 238);
   margin-top: 3rem;
+  margin-bottom: 3.2rem;
 }
 
 .h3-gandhi {
@@ -69,6 +84,10 @@ p {
 
 h3-style a {
   color: black;
+}
+
+#h3-anchor {
+  font-size: 24px;
 }
 
 #main-2 p {
@@ -82,6 +101,19 @@ h3-style a {
 }
 
 p-borders {
+}
+
+.footer-div {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-div p {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (max-width: 800px) {
