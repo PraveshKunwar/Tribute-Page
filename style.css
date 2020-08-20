@@ -1,0 +1,98 @@
+#header {
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  text-emphasis: none;
+  padding: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#main {
+  background-color: rgb(238, 238, 238);
+  height: auto;
+}
+
+h6 {
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+
+.offset {
+  margin-top: 50px;
+}
+
+.col-sm {
+  background: rgb(238, 238, 238);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tribute-info {
+  text-align: center;
+  margin: 30px;
+}
+
+.h3-style #h3-anchor {
+  color: black;
+  border: 3px solid dodgerblue;
+  font-weight: 750;
+  box-shadow: 5px 5px black;
+}
+
+.h3-style #h3-anchor:hover {
+  color: dodgerblue;
+  box-shadow: 5px 5px dodgerblue;
+}
+
+#main-2 {
+  background-color: rgb(238, 238, 238);
+  margin-top: 3rem;
+}
+
+.h3-gandhi {
+  text-align: center;
+  font-size: 24px;
+}
+
+h3-style a {
+  color: black;
+}
+
+#main-2 p {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.hr-seperators {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+p-borders {
+}
+
+@media screen and (max-width: 800px) {
+  #image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 234px) {
+  .h3-style {
+    border-style: none;
+  }
+}
