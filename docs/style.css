@@ -74,9 +74,25 @@ p {
 #main-2 {
   background-color: rgb(238, 238, 238);
   margin-top: 3rem;
+}
+
+#main-3 {
+  background-color: rgb(238, 238, 238);
+  margin-top: 3rem;
   margin-bottom: 3.2rem;
 }
 
+#main-3 .table1 tr:nth-child(odd) {
+  background-color: rgb(165, 156, 156);
+}
+
+#main-3 .table1 {
+  margin: auto;
+}
+
+#main-3 .table1 tr td {
+  border: 2px solid black;
+}
 .h3-gandhi {
   text-align: center;
   font-size: 24px;
@@ -115,7 +131,6 @@ p-borders {
 .footer-div p {
   color: rgba(255, 255, 255, 0.8);
 }
-
 @media screen and (max-width: 800px) {
   #image {
     width: 100%;
