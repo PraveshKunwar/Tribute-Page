@@ -71,6 +71,20 @@ p {
   border-width: 7px;
 }
 
+.h3-style #h3-anchor2 {
+  color: black;
+  border: 3px solid #e16f00;
+  font-weight: 750;
+  box-shadow: 5px 5px black;
+}
+
+.h3-style #h3-anchor2:hover {
+  color: #e16f00;
+  box-shadow: 5px 5px #e16f00;
+  border-color: #e16f00;
+  border-width: 7px;
+}
+
 #main-2 {
   background-color: rgb(238, 238, 238);
   margin-top: 3rem;
@@ -106,6 +120,10 @@ h3-style a {
   font-size: 24px;
 }
 
+#h3-anchor2 {
+  font-size: 24px;
+}
+
 #main-2 p {
   text-align: center;
   margin-top: 3rem;
@@ -131,6 +149,7 @@ p-borders {
 .footer-div p {
   color: rgba(255, 255, 255, 0.8);
 }
+
 @media screen and (max-width: 800px) {
   #image {
     width: 100%;
